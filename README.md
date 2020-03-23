@@ -47,7 +47,7 @@ Welcome to the Azure Spatial Anchors samples repository on GitHub. Azure Spatial
  - 2.2 .net core 설치  https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.207-windows-x64-installer  
  - 웹서비스 구성완료 : https://sharingservicearancor.azurewebsites.net/
  - 그 외에는 가이드대로 진행
- - 안드로이드에서 생선한 Anchor를 안드로이드에서 확인해봄
+ - 안드로이드에서 생성한 Anchor를 안드로이드에서 확인해봄
 
 
 ## Key Concepts
