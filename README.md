@@ -41,11 +41,12 @@ Welcome to the Azure Spatial Anchors samples repository on GitHub. Azure Spatial
 [MR/AR sharing across devices and sessions](https://docs.microsoft.com/azure/spatial-anchors/tutorials/tutorial-use-cosmos-db-to-store-anchors "Sharing across sessions")
 
 ### Unity on HoloLens
-다음과 같이 VS2019 설치시에 워크로드 구성을 추가해야됨  
-Visual Installer를 통해 추가설치 가능  
-![image](https://user-images.githubusercontent.com/11454375/77292593-f599c600-6d23-11ea-8ac3-b4175abfc3ec.png)
-
-웹서비스 구성완료 : https://sharingservicearancor.azurewebsites.net/
+ - 다음과 같이 VS2019 설치시에 워크로드 구성을 추가해야됨  
+   Visual Installer를 통해 추가설치 가능  
+   ![image](https://user-images.githubusercontent.com/11454375/77292593-f599c600-6d23-11ea-8ac3-b4175abfc3ec.png)
+ - 2.2 .net core 설치  https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.207-windows-x64-installer  
+ - 웹서비스 구성완료 : https://sharingservicearancor.azurewebsites.net/
+ 
 
 
 ## Key Concepts
