@@ -16,6 +16,11 @@ Welcome to the Azure Spatial Anchors samples repository on GitHub. Azure Spatial
 
 
 ### [Unity on HoloLens](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-hololens "Unity HoloLens Quickstart")
+다음의 툴들을 먼저 인스톨  
+ - VS 2019 (https://visualstudio.microsoft.com/ko/vs/)
+ - WIN10 SDK 18362 (https://developer.microsoft.com/ko-kr/windows/downloads/sdk-archive/)
+ 
+
 
 [Unity on iOS](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-ios "Unity iOS Quickstart")
 
