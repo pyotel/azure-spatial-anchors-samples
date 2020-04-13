@@ -4,17 +4,33 @@ Welcome to the Azure Spatial Anchors samples repository on GitHub. Azure Spatial
 
 ## Create your first app
 
+### 테스트 해본 플랫폼
+
+#### [Unity on Android](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-android "Unity Android Quickstart")
+다 문제 없었으나  
+이유는 모르겠지만 Account ID/KEY를 한번 리셋해줘야 했음
+
+
+#### [Unity on HoloLens](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-hololens "Unity HoloLens Quickstart")
+다음의 툴들을 먼저 인스톨  
+ - VS 2019 (https://visualstudio.microsoft.com/ko/vs/)
+ - WIN10 SDK 18362 (https://developer.microsoft.com/ko-kr/windows/downloads/sdk-archive/) (필수인지 불확실)
+ - 다음과 같이 빌드세팅
+ ![image](https://user-images.githubusercontent.com/11454375/77286674-19a2da80-6d17-11ea-9648-f36faf4340d7.png)
+ 
+
+#### [Unity on iOS](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-ios "Unity iOS Quickstart")
+아직 안해봄  
+
+### 그 외
+
 [Android Java](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-android "Android Quickstart")
 
 [HoloLens C++](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-hololens "HoloLens C++ Quickstart")
 
 [iOS Swift/Objective-C](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-ios "iOS Quickstart")
 
-[Unity on Android](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-android "Unity Android Quickstart")
 
-[Unity on HoloLens](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-hololens "Unity HoloLens Quickstart")
-
-[Unity on iOS](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-unity-ios "Unity iOS Quickstart")
 
 [Xamarin on Android](https://docs.microsoft.com/azure/spatial-anchors/quickstarts/get-started-xamarin-android "Xamarin Android Quickstart")
 
@@ -23,6 +39,16 @@ Welcome to the Azure Spatial Anchors samples repository on GitHub. Azure Spatial
 ## Enable sharing in MR/AR across sessions and devices
 
 [MR/AR sharing across devices and sessions](https://docs.microsoft.com/azure/spatial-anchors/tutorials/tutorial-use-cosmos-db-to-store-anchors "Sharing across sessions")
+
+### Unity on HoloLens and Android
+ - 다음과 같이 VS2019 설치시에 워크로드 구성을 추가해야됨  
+   Visual Installer를 통해 추가설치 가능  
+   ![image](https://user-images.githubusercontent.com/11454375/77292593-f599c600-6d23-11ea-8ac3-b4175abfc3ec.png)
+ - 2.2 .net core 설치  https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.207-windows-x64-installer  
+ - 웹서비스 구성완료 : https://sharingservicearancor.azurewebsites.net/
+ - 그 외에는 가이드대로 진행
+ - 에서 생성한 Anchor를 안드로이드에서 확인해봄
+
 
 ## Key Concepts
 
