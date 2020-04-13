@@ -3,6 +3,7 @@ UWP/
 Assets/GoogleARCore*
 Assets/PlayServicesResolver*
 Assets/UnityARKitPlugin*
+out/
 
 # Created by https://www.gitignore.io/api/unity
 # Edit at https://www.gitignore.io/?templates=unity
